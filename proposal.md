@@ -1,7 +1,7 @@
 # Final project proposal
 
 
-Please prepare a short proposal on your final project idea by **Nov 15**. The proposal should include:
+Please prepare a short proposal on your final project idea by **Nov 10**. The proposal should include:
 
 - Title & description of the project
 - Your name & partner's name
