@@ -1,6 +1,6 @@
 # Final project proposal
 
-Please replace this file with a short proposal for your final project by **Oct 29**. The final
+Please replace this file with a short proposal for your final project by **Oct 28**. The final
 project asks a global change question of your choosing and answers it with the tools we have
 used this semester. You may work with a partner or on your own; please say which.
 
