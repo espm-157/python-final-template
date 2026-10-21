@@ -1,4 +1,23 @@
+# Packages used across the course modules. Delete the ones your project does not use.
+# tabular data and plots
 pandas
-seaborn
+pyarrow
+duckdb
 ibis-framework[duckdb]
-nbval
+plotnine
+altair
+# spatial data and maps
+geopandas
+leafmap
+maplibre
+pystac-client
+odc-stac
+rioxarray
+exactextract
+# text as data
+requests
+pydantic
+langchain-openai
+langchain-core
+# dashboards and apps
+streamlit
