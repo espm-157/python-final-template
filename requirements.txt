@@ -19,5 +19,3 @@ requests
 pydantic
 langchain-openai
 langchain-core
-# dashboards and apps
-streamlit
