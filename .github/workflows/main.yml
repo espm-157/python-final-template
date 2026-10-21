@@ -1,20 +1,17 @@
 on: push
-name: Reproducibility Check
+name: Notebook check
 
+# A lightweight check that needs no data, packages or API keys: notebooks are valid,
+# every code cell parses, and no credentials are committed. It does not run the
+# notebooks. Warnings flag notebooks that were not run top to bottom.
 jobs:
-  render:
-    name: execute notebook
-    runs-on: ${{ (github.repository_owner == 'espm-157' && github.event.repository.private) && 'arc-runner-espm157' || 'ubuntu-latest' }}
-    container: ${{ (github.repository_owner == 'espm-157' && github.event.repository.private) && 'rocker/ml' || '' }}
-    env:
-      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+  check:
+    name: validate notebooks
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-python@v7
-      - name: Install Dependencies
-        run: pip install -r requirements.txt
-      - name: test
-        run: |
-             pytest --nbval-lax *.ipynb
-#      - name: render
-#        run: myst build climate.md --pdf
+        with:
+          python-version: "3.12"
+      - run: pip install nbformat
+      - run: python .github/check_notebooks.py

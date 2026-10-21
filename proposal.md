@@ -1,16 +1,21 @@
 # Final project proposal
 
+Please replace this file with a short proposal for your final project by **Oct 29**. The final
+project asks a global change question of your choosing and answers it with the tools we have
+used this semester. You may work with a partner or on your own; please say which.
 
-Please prepare a short proposal on your final project idea by **Nov 10**. The proposal should include:
+Your proposal should include:
 
-- Title & description of the project
-- Your name & partner's name
-- A precise description of the data required, and how it will be obtained (e.g. please link directly to an actual data source you can read into Python)
-- 3 questions / analysis tasks you will perform on the data; in the spirit of the assignments we have been doing.
+- A title and a short description of the global change question, and why it matters.
+- Your name and your partner's name, if any.
+- The data you will use, with a direct link to each source that you can read into Python. You
+  may continue with data from the climate, spatial or text modules, or propose new data.
+- Three questions or analysis tasks you will perform on the data, in the spirit of the module
+  assignments.
+- Which of the optional elements in the [rubric](rubric.md) you plan to use, such as
+  tabular data at scale, vector or raster data, interactive maps, text as data, a web page,
+  or a dashboard.
+- How you will present the results: a notebook, a web page, a dashboard, or some combination.
 
-*You may choose to work with your partner or independently on the final project. Please indicate which clearly in your proposal.*
-
-Your proposal may continue to work with any of the existing datasets we have already encountered in climate, fish or spatial modules, or propose an entirely new dataset.  
-
-Please create your proposal in a markdown file called `proposal.md` in the root directory of the final project repo.  
-
+A good proposal is short, perhaps one page. Be specific about the data: a link to the actual
+file or API is much more useful than the name of an agency.
